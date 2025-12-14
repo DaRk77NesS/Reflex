@@ -1,9 +1,5 @@
 # Reflex
-<div align="center">
 
- 
-  <br />
-  <br />
 
   # ⚡ R E F L E X
   **THE ULTIMATE GAMER ASSESSMENT HUB**
