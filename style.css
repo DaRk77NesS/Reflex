@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    font-family: 'Inter', sans-serif;
+    cursor: none;
+    /* Hide default cursor for immersion */
+}
+
+/* Typography Overrides */
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.font-rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* Thematic Background Patterns */
+.bg-reaction {
+    background-image:
+        radial-gradient(circle at 50% 50%, transparent 0%, rgba(0, 0, 0, 0.8) 100%),
+        repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(250, 204, 21, 0.15) 10px, rgba(250, 204, 21, 0.15) 11px);
+}
+
+.bg-aim {
+    background-image:
+        radial-gradient(circle at center, transparent 0%, #000 90%),
+        linear-gradient(rgba(220, 38, 38, 0.2) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(220, 38, 38, 0.2) 1px, transparent 1px);
+    background-size: 100% 100%, 50px 50px, 50px 50px;
+}
+
+.bg-cps {
+    background-image:
+        radial-gradient(circle at center, transparent 20%, #000 100%),
+        radial-gradient(rgba(37, 99, 235, 0.25) 2px, transparent 2px);
+    background-size: 100% 100%, 30px 30px;
+}
+
+.bg-typing {
+    background-image:
+        linear-gradient(rgba(22, 163, 74, 0.15) 1px, transparent 1px);
+    background-size: 100% 30px;
+    /* Terminal text line spacing */
+}
+
+/* Utilities */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
